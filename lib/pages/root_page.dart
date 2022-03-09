@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:krealisation/pages/home_page.dart';
+import 'package:krealisation/pages/profile_page.dart';
 import 'package:krealisation/pages/saved_page.dart';
 import 'package:krealisation/theme/colors.dart';
 
@@ -118,6 +119,7 @@ class _RootPageState extends State<RootPage> {
       Homepage(),
       chatPage(),
       savedPage(),
+      profilePage(),
        Center(child: Text("save"),
       ),
        Center(child: Text("profile"),
