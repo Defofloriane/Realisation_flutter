@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:krealisation/pages/home_page.dart';
+import 'package:krealisation/pages/saved_page.dart';
 import 'package:krealisation/theme/colors.dart';
 
 import 'chat_page.dart';
@@ -116,8 +117,7 @@ class _RootPageState extends State<RootPage> {
     children: const [
       Homepage(),
       chatPage(),
-       Center(child: Text("upload"),
-      ),
+      savedPage(),
        Center(child: Text("save"),
       ),
        Center(child: Text("profile"),
